@@ -1,0 +1,61 @@
+{
+  "owners": [
+    {
+      "id": "1",
+      "name": "Carlos Propietario",
+      "dni": "12345678",
+      "email": "carlos@prop.com",
+      "phone": "987654321",
+      "password": "123456",
+      "role": "owner"
+    }
+  ],
+  "buyers": [
+    {
+      "id": "1",
+      "name": "Luis Comprador",
+      "dni": "87654321",
+      "email": "luis@comp.com",
+      "phone": "912345678",
+      "password": "123456",
+      "role": "buyer"
+    }
+  ],
+  "requests": [
+    {
+      "id": "bd91",
+      "propertyName": "De las Casas",
+      "details": "- Amueblada\n- Espacio grande.",
+      "status": "en inspección",
+      "createdAt": "2025-10-10T06:40:48.464Z"
+    },
+    {
+      "id": "8c89",
+      "propertyName": "casa",
+      "details": "casa",
+      "status": "en inspección",
+      "createdAt": "2025-10-10T07:12:29.448Z",
+      "ownerId": "1e8c"
+    }
+  ],
+  "legalVerifications": [
+    {
+      "id": "1",
+      "userId": "1e8c",
+      "propertyName": "Casa en Miraflores",
+      "type": "Consulta SUNARP",
+      "entity": "SUNARP",
+      "status": "Limpio",
+      "observations": ""
+    },
+    {
+      "id": "2",
+      "userId": "1e8c",
+      "propertyName": "Terreno en Chorrillos",
+      "type": "Consulta Municipalidad",
+      "entity": "Municipalidad de Lima",
+      "status": "Observado",
+      "observations": "Pendiente regularización de licencia de construcción"
+    }
+  ]
+}
